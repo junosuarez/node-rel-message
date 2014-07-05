@@ -4,11 +4,25 @@ validation for rel messages
 ## usage
 ```js
 var relMessage = require('rel-message')
+
+var message = relMessage(
+  'http://to.com',
+  'http://from.com',
+  'http://rel.com')
+
+relMessage.validate(message)
+// => true
+
 ```
 
 
 ## api
 
+### relMessage : (to: URI, from: URI, rel: URI) => Object
+
+returns a rel message object with the proper jsonld context set
+
+### relMessage.validate : (message: Object) => Boolean
 
 ## installation
 

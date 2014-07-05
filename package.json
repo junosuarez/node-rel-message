@@ -3,7 +3,11 @@
   "author": "jden <jason@denizac.org>",
   "version": "0.1.0",
   "description": "validation for rel messages",
-  "keywords": ["rel.is", "rel", "constructor"],
+  "keywords": [
+    "rel.is",
+    "rel",
+    "constructor"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -13,6 +17,13 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "chai": "^1.9.1",
-    "mocha": "^1.19.0"
+    "mocha": "^1.19.0",
+    "mochi": "^0.1.0",
+    "chai-interface": "^1.1.0"
+  },
+  "dependencies": {
+    "connective": "^1.0.0",
+    "URIjs": "^1.13.2",
+    "tracery": "^0.7.0"
   }
 }
