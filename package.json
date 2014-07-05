@@ -1,0 +1,18 @@
+{
+  "name": "rel-message",
+  "author": "jden <jason@denizac.org>",
+  "version": "0.1.0",
+  "description": "validation for rel messages",
+  "keywords": ["rel.is", "rel", "constructor"],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "git@github.com:jden/node-rel-message.git",
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.19.0"
+  }
+}
